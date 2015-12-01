@@ -1,0 +1,22 @@
+{
+  "name": "logstash-js-onerror",
+  "version": "1.0.0",
+  "description": "Send javascript errors to logstash through http input plugin",
+  "main": "lib/index",
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-core": "^6.1.2",
+    "babel": "^6.0.15",
+    "babel-loader": "^6.1.0",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "babel-preset-es2015": "^6.1.2"
+  },
+  "scripts": {
+    "build": "babel ./src -d lib",
+    "dev": "babel ./src -d lib -w",
+    "postinstall": "npm run build"
+  },
+  "author": "Vadim Abdrashitov <vadim.abdrashitov@gmail.com> (https://github.com/jincod)",
+  "license": "MIT"
+}
