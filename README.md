@@ -1,11 +1,11 @@
-# JS "onerror" logger
+# JS onerror logger
 
 ```javascript
 import client from 'logstash-js-onerror';
 
 client.configure({
-  url: 'http://localhost/logstash',
-  projectName: 'TestProjectName',
-  projectId: 'Web'
+  url: 'http://localhost/api/log',
+  projectid: 'projectId',
+  appid: 'web'
 });
 ```
