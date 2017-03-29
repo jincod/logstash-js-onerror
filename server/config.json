@@ -1,0 +1,15 @@
+{
+  "logstashOptions": {
+    "host": "127.0.0.1",
+    "port": 12345,
+    "node_name": "Test node name",
+    "ssl_enable": true,
+    "rejectUnauthorized": true,
+    "ssl_key": "client.key",
+    "ssl_cert": "client.crt",
+    "ca": ["ca.crt"]
+  },
+  "projects": {
+    "projectId1": "Test-Project"
+  }
+}
