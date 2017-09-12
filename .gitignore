@@ -1,3 +1,6 @@
 node_modules
 dist
 lib
+server/*.crt
+server/*.key
+server/config.json

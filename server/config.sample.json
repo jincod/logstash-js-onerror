@@ -8,8 +8,5 @@
     "ssl_key": "client.key",
     "ssl_cert": "client.crt",
     "ca": ["ca.crt"]
-  },
-  "projects": {
-    "projectId1": "Test-Project"
   }
 }

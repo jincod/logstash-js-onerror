@@ -9,11 +9,4 @@ const logger = new winston.Logger({
   ]
 });
 
-logger.rewriters.push((level, msg, meta) => {
-  const {projectid} = meta;
-  const project = config.projects[projectid];
-
-  return Object.assign({project}, meta);
-});
-
 module.exports = logger;
